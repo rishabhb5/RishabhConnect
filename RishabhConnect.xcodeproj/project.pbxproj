@@ -1,0 +1,443 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		16ADAA444EC8FA6A9EEEFC32 /* Pods_RishabhConnect.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2628AA2D17FB76C55D5AAD3 /* Pods_RishabhConnect.framework */; };
+		18C6F8B422C3C42F007BCF2C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C6F8B322C3C42F007BCF2C /* AppDelegate.swift */; };
+		18C6F8B922C3C42F007BCF2C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18C6F8B722C3C42F007BCF2C /* Main.storyboard */; };
+		18C6F8BB22C3C430007BCF2C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18C6F8BA22C3C430007BCF2C /* Assets.xcassets */; };
+		18C6F8BE22C3C430007BCF2C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18C6F8BC22C3C430007BCF2C /* LaunchScreen.storyboard */; };
+		18C6F8C722C3C874007BCF2C /* LoginRegisterController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C6F8C622C3C874007BCF2C /* LoginRegisterController.swift */; };
+		18C6F8C922C3C95D007BCF2C /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C6F8C822C3C95D007BCF2C /* MainViewController.swift */; };
+		18C6F8CB22C51158007BCF2C /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 18C6F8CA22C51158007BCF2C /* GoogleService-Info.plist */; };
+		18D58CA922CB885E003DB021 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D58CA822CB885E003DB021 /* User.swift */; };
+		18D58CAD22CB9F1F003DB021 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D58CAC22CB9F1F003DB021 /* Message.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		18C6F8B022C3C42F007BCF2C /* RishabhConnect.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RishabhConnect.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		18C6F8B322C3C42F007BCF2C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		18C6F8B822C3C42F007BCF2C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		18C6F8BA22C3C430007BCF2C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		18C6F8BD22C3C430007BCF2C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		18C6F8BF22C3C430007BCF2C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18C6F8C622C3C874007BCF2C /* LoginRegisterController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginRegisterController.swift; sourceTree = "<group>"; };
+		18C6F8C822C3C95D007BCF2C /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		18C6F8CA22C51158007BCF2C /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		18D58CA822CB885E003DB021 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		18D58CAC22CB9F1F003DB021 /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+		4571203185BDEF95189D461C /* Pods-RishabhConnect.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RishabhConnect.debug.xcconfig"; path = "Target Support Files/Pods-RishabhConnect/Pods-RishabhConnect.debug.xcconfig"; sourceTree = "<group>"; };
+		BE1E5F053C42697CEC270729 /* Pods-RishabhConnect.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RishabhConnect.release.xcconfig"; path = "Target Support Files/Pods-RishabhConnect/Pods-RishabhConnect.release.xcconfig"; sourceTree = "<group>"; };
+		C2628AA2D17FB76C55D5AAD3 /* Pods_RishabhConnect.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RishabhConnect.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		18C6F8AD22C3C42F007BCF2C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16ADAA444EC8FA6A9EEEFC32 /* Pods_RishabhConnect.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		18C6F8A722C3C42F007BCF2C = {
+			isa = PBXGroup;
+			children = (
+				18C6F8B222C3C42F007BCF2C /* RishabhConnect */,
+				18C6F8B122C3C42F007BCF2C /* Products */,
+				EE25966080C0B4DF45F2DC3C /* Pods */,
+				FCCCCFF3F8159C7AB38C08A5 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		18C6F8B122C3C42F007BCF2C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				18C6F8B022C3C42F007BCF2C /* RishabhConnect.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		18C6F8B222C3C42F007BCF2C /* RishabhConnect */ = {
+			isa = PBXGroup;
+			children = (
+				18D58CA722CB884B003DB021 /* Model */,
+				18C6F8C522C3C450007BCF2C /* Supporting Files */,
+				18C6F8B322C3C42F007BCF2C /* AppDelegate.swift */,
+				18C6F8C622C3C874007BCF2C /* LoginRegisterController.swift */,
+				18C6F8C822C3C95D007BCF2C /* MainViewController.swift */,
+				18C6F8BF22C3C430007BCF2C /* Info.plist */,
+				18C6F8CA22C51158007BCF2C /* GoogleService-Info.plist */,
+			);
+			path = RishabhConnect;
+			sourceTree = "<group>";
+		};
+		18C6F8C522C3C450007BCF2C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				18C6F8B722C3C42F007BCF2C /* Main.storyboard */,
+				18C6F8BC22C3C430007BCF2C /* LaunchScreen.storyboard */,
+				18C6F8BA22C3C430007BCF2C /* Assets.xcassets */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		18D58CA722CB884B003DB021 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				18D58CA822CB885E003DB021 /* User.swift */,
+				18D58CAC22CB9F1F003DB021 /* Message.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		EE25966080C0B4DF45F2DC3C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4571203185BDEF95189D461C /* Pods-RishabhConnect.debug.xcconfig */,
+				BE1E5F053C42697CEC270729 /* Pods-RishabhConnect.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		FCCCCFF3F8159C7AB38C08A5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C2628AA2D17FB76C55D5AAD3 /* Pods_RishabhConnect.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		18C6F8AF22C3C42F007BCF2C /* RishabhConnect */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18C6F8C222C3C430007BCF2C /* Build configuration list for PBXNativeTarget "RishabhConnect" */;
+			buildPhases = (
+				6BED439BFABF66413FEFEA5D /* [CP] Check Pods Manifest.lock */,
+				18C6F8AC22C3C42F007BCF2C /* Sources */,
+				18C6F8AD22C3C42F007BCF2C /* Frameworks */,
+				18C6F8AE22C3C42F007BCF2C /* Resources */,
+				C4D287F9796F6E5A923A2BEF /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RishabhConnect;
+			productName = RishabhConnect;
+			productReference = 18C6F8B022C3C42F007BCF2C /* RishabhConnect.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		18C6F8A822C3C42F007BCF2C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "Rishabh Bendiganavale";
+				TargetAttributes = {
+					18C6F8AF22C3C42F007BCF2C = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 18C6F8AB22C3C42F007BCF2C /* Build configuration list for PBXProject "RishabhConnect" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 18C6F8A722C3C42F007BCF2C;
+			productRefGroup = 18C6F8B122C3C42F007BCF2C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				18C6F8AF22C3C42F007BCF2C /* RishabhConnect */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		18C6F8AE22C3C42F007BCF2C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18C6F8CB22C51158007BCF2C /* GoogleService-Info.plist in Resources */,
+				18C6F8BE22C3C430007BCF2C /* LaunchScreen.storyboard in Resources */,
+				18C6F8BB22C3C430007BCF2C /* Assets.xcassets in Resources */,
+				18C6F8B922C3C42F007BCF2C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6BED439BFABF66413FEFEA5D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RishabhConnect-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C4D287F9796F6E5A923A2BEF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RishabhConnect/Pods-RishabhConnect-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RishabhConnect/Pods-RishabhConnect-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RishabhConnect/Pods-RishabhConnect-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18C6F8AC22C3C42F007BCF2C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18D58CA922CB885E003DB021 /* User.swift in Sources */,
+				18C6F8C722C3C874007BCF2C /* LoginRegisterController.swift in Sources */,
+				18D58CAD22CB9F1F003DB021 /* Message.swift in Sources */,
+				18C6F8B422C3C42F007BCF2C /* AppDelegate.swift in Sources */,
+				18C6F8C922C3C95D007BCF2C /* MainViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		18C6F8B722C3C42F007BCF2C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18C6F8B822C3C42F007BCF2C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		18C6F8BC22C3C430007BCF2C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18C6F8BD22C3C430007BCF2C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		18C6F8C022C3C430007BCF2C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		18C6F8C122C3C430007BCF2C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		18C6F8C322C3C430007BCF2C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4571203185BDEF95189D461C /* Pods-RishabhConnect.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LCF98UGU64;
+				INFOPLIST_FILE = RishabhConnect/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.RishabhBendiganavale.RishabhConnect;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		18C6F8C422C3C430007BCF2C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BE1E5F053C42697CEC270729 /* Pods-RishabhConnect.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LCF98UGU64;
+				INFOPLIST_FILE = RishabhConnect/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.RishabhBendiganavale.RishabhConnect;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18C6F8AB22C3C42F007BCF2C /* Build configuration list for PBXProject "RishabhConnect" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18C6F8C022C3C430007BCF2C /* Debug */,
+				18C6F8C122C3C430007BCF2C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18C6F8C222C3C430007BCF2C /* Build configuration list for PBXNativeTarget "RishabhConnect" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18C6F8C322C3C430007BCF2C /* Debug */,
+				18C6F8C422C3C430007BCF2C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 18C6F8A822C3C42F007BCF2C /* Project object */;
+}
